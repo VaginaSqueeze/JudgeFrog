@@ -1,0 +1,11 @@
+<Book>
+  <Name>Book_Herpetology_Vol3</Name>
+  <Title>Toad Whispering for Experts</Title>
+  <Description>For the advanced frogologist who speaks fluent ribbit and dreams in mud.</Description>
+  <Skill>Herpetology</Skill>
+  <MinSkillLevel>7</MinSkillLevel>
+  <MaxSkillLevel>10</MaxSkillLevel>
+  <Price>750</Price>
+  <SkillGain>True</SkillGain>
+  <Genre>NonFiction</Genre>
+</Book>

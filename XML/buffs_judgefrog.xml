@@ -1,0 +1,46 @@
+<Buffs>
+  <Buff>
+    <Name>Buff_FrogFailSad</Name>
+    <DisplayName>0xEF8AF94EF138800D</DisplayName>
+    <Description>0x2543DA4F10249ACF</Description>
+    <MoodValue>-15</MoodValue>
+    <Duration>4</Duration>
+    <IconIndex>0</IconIndex> <!-- placeholder -->
+  </Buff>
+
+  <Buff>
+    <Name>Buff_FrogFiendJoy</Name>
+    <DisplayName>0x6FEAB031BC58AAB</DisplayName>
+    <Description>0xC4AA3F034CDFA529</Description>
+    <MoodValue>10</MoodValue>
+    <Duration>6</Duration>
+    <IconIndex>1</IconIndex> <!-- placeholder -->
+  </Buff>
+
+  <Buff>
+    <Name>Buff_CryOverTadpoles</Name>
+    <DisplayName>0x3384C5FBD458DAD</DisplayName>
+    <Description>0x693EA9FBF346BB6F</Description>
+    <MoodValue>-5</MoodValue>
+    <Duration>2</Duration>
+    <IconIndex>2</IconIndex> <!-- placeholder -->
+  </Buff>
+
+  <Buff>
+    <Name>Buff_Swamplord</Name>
+    <DisplayName>0x35C5C79D60E63C8C</DisplayName>
+    <Description>0x02E8BD9418C2306</Description>
+    <MoodValue>25</MoodValue>
+    <Duration>-1</Duration> <!-- Permanent while raining, manually controlled -->
+    <IconIndex>3</IconIndex>
+  </Buff>
+
+  <Buff>
+    <Name>Buff_AmphibiousBlessing</Name>
+    <DisplayName>0xB404D8B05D135A1</DisplayName>
+    <Description>0x5D58578CD4B5831B</Description>
+    <MoodValue>50</MoodValue>
+    <Duration>168</Duration> <!-- 168 hours = 1 week -->
+    <IconIndex>4</IconIndex>
+  </Buff>
+</Buffs>

@@ -1,0 +1,11 @@
+<Book>
+  <Name>Book_Herpetology_Vol2</Name>
+  <Title>Amphibians and Afflictions</Title>
+  <Description>Dive deeper into dangerous species and the mild diseases they carry.</Description>
+  <Skill>Herpetology</Skill>
+  <MinSkillLevel>4</MinSkillLevel>
+  <MaxSkillLevel>6</MaxSkillLevel>
+  <Price>125</Price>
+  <SkillGain>True</SkillGain>
+  <Genre>NonFiction</Genre>
+</Book>

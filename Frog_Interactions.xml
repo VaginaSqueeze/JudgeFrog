@@ -1,0 +1,18 @@
+<SocialInteraction>
+  <Name>TalkAboutFrogs</Name>
+  <DisplayName>0xF0000010</DisplayName>
+  <Availability>
+    <TraitRequired>FrogFiend</TraitRequired>
+  </Availability>
+  <TestSet>
+    <IsSim>true</IsSim>
+    <TargetIsSim>true</TargetIsSim>
+    <MoodAllowed>Any</MoodAllowed>
+  </TestSet>
+  <CommodityChanges>
+    <Change>
+      <Commodity>Relationship</Commodity>
+      <Value>+10</Value>
+    </Change>
+  </CommodityChanges>
+</SocialInteraction>

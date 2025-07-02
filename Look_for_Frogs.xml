@@ -1,0 +1,34 @@
+<Interaction>
+  <Name>LookForFrogs</Name>
+  <DisplayName>0xF0000005</DisplayName> <!-- "Hunt For Frogs" -->
+  <TargetType>Lot</TargetType>
+  <InteractionCategory>Outdoor</InteractionCategory>
+  <Availability>
+    <TraitRequired>FrogFiend</TraitRequired>
+    <Or>
+      <SkillMinimum>
+        <SkillName>Herpetology</SkillName>
+        <Level>6</Level>
+      </SkillMinimum>
+    </Or>
+  </Availability>
+  <TestSet>
+    <IsSim>true</IsSim>
+    <RouteAllowed>true</RouteAllowed>
+    <LotHasPond>true</LotHasPond> <!-- Or near frog spawner -->
+  </TestSet>
+  <CommodityChanges>
+    <Change>
+      <Commodity>Fun</Commodity>
+      <Value>+10</Value>
+    </Change>
+    <Change>
+      <Commodity>Herpetology</Commodity>
+      <Value>+25</Value>
+    </Change>
+  </CommodityChanges>
+  <Effects>
+    <Animation>SimFishingAnimation</Animation> <!-- Placeholder -->
+    <CollectibleChance>1.0</CollectibleChance>
+  </Effects>
+</Interaction>

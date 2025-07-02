@@ -1,0 +1,36 @@
+<Books>
+  <!-- 🐸 Volume 1: Intro to Herpetology -->
+  <Book>
+    <Name>Book_Herpetology_Vol1</Name>
+    <Price>75</Price>
+    <AvailableIn>
+      <Bookstore>true</Bookstore>
+      <FranceBookstore>true</FranceBookstore>
+    </AvailableIn>
+  </Book>
+
+  <!-- 🐸 Volume 2: Amphibian Handling -->
+  <Book>
+    <Name>Book_Herpetology_Vol2</Name>
+    <Price>200</Price>
+    <AvailableIn>
+      <Consignment>true</Consignment>
+      <FranceBookstore>true</FranceBookstore>
+      <ElixirStore>true</ElixirStore> <!-- From Supernatural -->
+    </AvailableIn>
+  </Book>
+
+  <!-- 🐸 Volume 3: Toad Whispering (rare loot only) -->
+  <Book>
+    <Name>Book_Herpetology_Vol3</Name>
+    <Price>750</Price>
+    <AvailableIn>
+      <LootOnly>true</LootOnly>
+    </AvailableIn>
+    <LootDrop>
+      <Trigger>CheckFreshwaterForTadpoles</Trigger>
+      <Chance>0.01</Chance>
+      <SkillMinLevel>3</SkillMinLevel>
+    </LootDrop>
+  </Book>
+</Books>

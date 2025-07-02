@@ -1,0 +1,41 @@
+<Trait>
+  <Key>FrogFiend</Key>
+  <DisplayName>0xF0000001</DisplayName> <!-- STBL: "Frog Fiend" -->
+  <Description>0xF0000002</Description>  <!-- STBL: "Some Sims have a thing for feet..." -->
+  <ConflictTraits>HatesTheOutdoors</ConflictTraits>
+  <ExcludedOccultTypes />
+  <Genders>All</Genders>
+  <AgeAvailability>
+    <Age>Child</Age>
+    <Age>Teen</Age>
+    <Age>YoungAdult</Age>
+    <Age>Adult</Age>
+    <Age>Elder</Age>
+  </AgeAvailability>
+  <TraitCategories>
+    <TraitCategory>Personality</TraitCategory>
+  </TraitCategories>
+  <Buffs>
+    <Buff>
+      <BuffName>Buff-FrogsNearby</BuffName> <!-- Optional: attach a proximity buff -->
+    </Buff>
+  </Buffs>
+  <SkillModifiers>
+    <SkillModifier>
+      <SkillName>Herpetology</SkillName>
+      <Modifier>1.5</Modifier>
+    </SkillModifier>
+  </SkillModifiers>
+  <AutonomousModifiers>
+    <InteractionModifier>
+      <InteractionName>CollectFrog</InteractionName> <!-- Custom interaction -->
+      <Modifier>2.0</Modifier>
+    </InteractionModifier>
+  </AutonomousModifiers>
+  <FunModifiers>
+    <FunModifier>
+      <FunLevel>5</FunLevel>
+      <Modifier>+10</Modifier>
+    </FunModifier>
+  </FunModifiers>
+</Trait>

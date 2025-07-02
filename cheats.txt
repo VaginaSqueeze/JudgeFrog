@@ -1,0 +1,5 @@
+Purpose	Key
+Trait Name	0xF0000001
+Trait Description	0xF0000002
+Buff Name	0xF0000003
+Buff Description	0xF0000004

@@ -1,0 +1,11 @@
+<Book>
+  <Name>Book_Herpetology_Vol1</Name>
+  <Title>Frogs: Wet n’ Wild</Title>
+  <Description>A slimy introduction to frog facts, habitats, and the joys of being damp.</Description>
+  <Skill>Herpetology</Skill>
+  <MinSkillLevel>0</MinSkillLevel>
+  <MaxSkillLevel>3</MaxSkillLevel>
+  <Price>115</Price>
+  <SkillGain>True</SkillGain>
+  <Genre>NonFiction</Genre>
+</Book>

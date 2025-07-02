@@ -1,0 +1,16 @@
+<Skill>
+  <Name>Herpetology</Name>
+  <Guid>0x123FROG9</Guid>
+  <Type>Skill_Visible</Type>
+  <Icon>frog_icon.dds</Icon>
+  <MinLevel>0</MinLevel>
+  <MaxLevel>10</MaxLevel>
+  <SkillGainRates>
+    <GainMultiplier>1.0</GainMultiplier>
+  </SkillGainRates>
+  <SkillBook>
+    <BeginnerBook>Book_Herpetology_Vol1</BeginnerBook>
+    <IntermediateBook>Book_Herpetology_Vol2</IntermediateBook>
+    <AdvancedBook>Book_Herpetology_Vol3</AdvancedBook>
+  </SkillBook>
+</Skill>
